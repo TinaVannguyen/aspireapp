@@ -1,7 +1,10 @@
 # aspireapp
 Login Test: run:-> public void loginByEmail()
+
 InventoryTest:run -> public void InventoryFeatures()
+
 ManufacturingTest: run -> public void ManufacturingFeature()
+
 Data: 
   input: StageEnvTestData.json
 Pages: 
