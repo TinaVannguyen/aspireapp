@@ -1,3 +1,4 @@
+
 # aspireapp
 Login Test: run:-> public void loginByEmail()
 
@@ -19,3 +20,4 @@ Common
   - TestConstant
 
 Drivers: "webdriver.chrome.driver", "src/main/resources/Drivers/chromedriver96"
+

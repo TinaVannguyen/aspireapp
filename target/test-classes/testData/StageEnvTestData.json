@@ -1,0 +1,18 @@
+{
+  "testDataSuccess": {
+    "email": "user@aspireapp.com",
+    "pass": "@sp1r3app",
+    "productName": "@khanhvan"
+  },
+  "testDataFailed": {
+    "email": "user@aspireapp.com_test",
+    "pass": "@sp1r3app_test"
+  },
+  "addProductSuccess": {
+    "productName": "@khanhvan",
+    "productReference": "TestReference",
+    "productBarcode": "TestCode",
+    "productPrice": "2",
+    "productCost": "8"
+  }
+}
