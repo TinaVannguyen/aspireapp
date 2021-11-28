@@ -47,7 +47,7 @@ public class InventoryTest extends BaseTest {
     }
 
     @Test(groups = {"Major"})
-    public void clickInventoryBnt() {
+    public void InventoryFeatures() {
         logger.info("Access Login Page");
         LoginPage loginPage = new LoginPage(driver);
         loginPage.loginByEmail(validEmail, validPass);
