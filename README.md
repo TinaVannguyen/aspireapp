@@ -1,28 +1,23 @@
-# Read Me First
-The original package name is 'com.aspireapp.aspiretest' instead.
 
-# Getting Started
-Documentation
-Aspire software is the system help credit companies decide how to reject or approve a money loan request from their customers,
-keep track of all the loan information and help to faster proceed all the requests.
+# aspireapp
+Login Test: run:-> public void loginByEmail()
 
-Step 1: Get Aspire Project
-Getting the project on Github and check out your copy locally.
-- git clone https://github.com/hanngo-qc/aspire-test.git
+InventoryTest:run -> public void InventoryFeatures()
 
-Step 2: Select branch 
-- Select branch: master
+ManufacturingTest: run -> public void ManufacturingFeature()
 
-Step 3: Load Project
-- Select pom.xml > Select Maven > Select Reload Project to make sure the dependency is downloaded successfully.
+Data: 
+  input: StageEnvTestData.json
+Pages: 
+  - HomePage
+  - InventoryPage
+  - LoginPage
+  - ManufacturingPage
+  - ProductPage
 
-Step 4: How to run test suite/script
-- Test suite: Click right testng.xml file and select Run.
-- Test script Click right Test.java files on src/test/java/com/aspireapp/aspiretest/ and select Run.
+Common
+  - Constants
+  - TestConstant
 
-### Reference Documentation
-For further reference, please consider the following sections:
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Java documentation] (https://www.selenium.dev/selenium/docs/api/java/overview-summary.html)
-* 
+Drivers: "webdriver.chrome.driver", "src/main/resources/Drivers/chromedriver96"
 
