@@ -1,6 +1,5 @@
 package com.aspireapp.aspiretest.pages;
 
-import com.aspireapp.aspiretest.common.TestConstants;
 import com.aspireapp.aspiretest.pageobject.PageObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -20,7 +19,7 @@ public class ManufacturingPage extends PageObject {
     @FindBy(css = "div[name='product_id']")
     private WebElement manufacturingProductTxt;
 
-    @FindBy(css = "input[id='o_field_input_1585']")
+    @FindBy(css = "div[name='product_id']>div[class='o_input_dropdown']>input[class='o_input ui-autocomplete-input']")
     private WebElement inputManufacturingProduct;
 
     @FindBy(css = "span[name='name']")
@@ -44,10 +43,6 @@ public class ManufacturingPage extends PageObject {
         waitHelper.waitUtilTextToBeByCssSelector("a[class='o_menu_brand']", "Manufacturing");
     }
 
-    public void waitUtilManufactureProductExisted() {
-        waitHelper.waitUtilTextToBeByCssSelector("a[class='o_menu_brand']", TestConstants.PRODUCT_ADDED_NEW_PAGE);
-    }
-
     public void clickManufacturingCreate() {
         elementHelper.click(createManufacturing);
     }
@@ -68,8 +63,5 @@ public class ManufacturingPage extends PageObject {
         elementHelper.inputText(inputManufacturingProduct, ManufacturingProductName);
     }
 
-    public String getManufacturingProductName() {
-       return elementHelper.getText(manufacturingNameAdded);
-    }
 }
 

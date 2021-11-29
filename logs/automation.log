@@ -1,5 +1,0 @@
-11-28-2021 23:05:39[INFO ] - [com.aspireapp.aspiretest.BaseTest / setupTestData] - Initializing Staging env
-11-28-2021 23:05:40[INFO ] - [com.aspireapp.aspiretest.utils.ConvertUtil / convertJsonFileToMap] - File path >>>> src/test/resources/testData/StageEnvTestData.json
-
-11-28-2021 23:05:48[INFO ] - [com.aspireapp.aspiretest.LoginTest / loginByEmail] - Access Login Page
-11-28-2021 23:05:50[INFO ] - [com.aspireapp.aspiretest.LoginTest / loginByEmail] - Access to Inventory page
